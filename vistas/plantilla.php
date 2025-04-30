@@ -12,67 +12,14 @@
 
 <body>
 
-    <div class="container-fluid">
-        <h1 class="text-center py-3"> Mi primer PHP </h1>
-    </div>
+    
+<?php
+include "vistas/modulos/menu.php";
+include "vistas/modulos/contenido.php";
+?>
+    
 
-    <div class="container-fluid bg-light">
-        <div class="container">
-            <ul class="nav nav-justified py-2 nav-pills">
-                <li class="nav-item">
-                    <a href="registro.html" class="nav-link">Registro</a>
-                </li>
-                <li class="nav-item">
-                    <a href="ingreso.html" class="nav-link">Ingreso</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link active">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="inventario.html" class="nav-link">Inventario</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Salir</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="container py-5">
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Telefono</th>
-                        <th>Email</th>
-                        <th>Contraseña</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Elon Musk</td>
-                        <td>3156369875</td>
-                        <td>elonm@gmail.com</td>
-                        <td>123</td>
-                    </tr>
-                    <tr>
-                        <td>Carlos</td>
-                        <td>3156369875</td>
-                        <td>carlosb@gmail.com</td>
-                        <td>123</td>
-                    </tr>
-                    <tr>
-                        <td>Mark</td>
-                        <td>3156369875</td>
-                        <td>markz@gmail.com</td>
-                        <td>123</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-    </div>
+    
 
 
        
